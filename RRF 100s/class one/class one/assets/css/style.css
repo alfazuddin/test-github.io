@@ -1,0 +1,127 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+     color: #222;
+}
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+}
+a:hover { text-decoration: none }
+.blog-box-bg-1{background-image:url(../img/blog-box-bg-1.jpg)}
+.blog-box-bg-2{background-image:url(../img/blog-box-bg-2.jpg)}
+.blog-box-bg-3{background-image:url(../img/blog-box-bg-3.jpg)}
+
+.section-title p {
+	font-size: 17px;
+	color: #565656;
+	margin-bottom: 70px;
+}
+.section-title h2 {
+	font-size: 32px;
+	text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+.section-title h2:before {
+	position: absolute;
+	content: "";
+	height: 1.5px;
+	width: 70px;
+	bottom:0px;
+	background:#fdaf67; 
+	left: 50%;
+	transform: translateX(-50%);
+}
+.section-title h2:after{
+   position: absolute;
+	content: "";
+	height: 1.5px;
+	width:30px;
+	bottom:0px;
+	background:#353535;;
+    bottom:0px;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+section.section-padding{
+    padding:100px 0;
+}
+.blog-box-bg {
+	background-position: center center;
+	height: 200px;
+	background-size: cover;
+	background-color: #ddd;
+	border: 1px solid #fdaf67;
+}
+.blog-box-bg {
+	border-bottom: 0px solid;
+}
+.blog-box-content {
+	border: 1px solid #f4f4f4;
+	padding: 20px;
+    transition: .3s;
+}
+.blog-box-content h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.blog-meta i.fa{
+    color:#fdaf67;
+    padding:5px;
+}
+
+.blog-meta {
+    font-size:14px; 
+}
+.blog-meta span{
+    margin-right: 10px; 
+}.blog-meta span: last-child{
+    margin-right:0px; 
+}
+.blog-readmore-btn {
+	background: #fd8e2e;
+	padding: 10px 20px;
+	margin-top: 4px;
+	font-size: 12px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	display: inline-block;
+	transition: 0.2s;
+	font-weight: 700;
+}
+.blog-readmore-btn:hover{
+    background:#333;
+    color: #fff;
+}
+.single-blog-box:hover .blog-box-content{
+  border-color: #fd8e2e;  
+}
